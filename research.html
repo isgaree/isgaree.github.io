@@ -1,0 +1,76 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal academic website for Isaac Garee, an Industrial & Systems Engineering undergraduate student at the University of Cincinnati.">
+  <title>Research | Isaac Garee</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="research">
+  <div class="site-shell">
+    <aside class="sidebar" aria-label="Profile sidebar">
+  <section class="profile-card">
+    <img class="profile-photo" src="assets/profile.jpg" alt="Portrait of Isaac Garee">
+    <div class="profile-main">
+      <h1>Isaac Garee</h1>
+      <p class="role">Industrial &amp; Systems Engineering<br>University of Cincinnati</p>
+      <ul class="meta-list">
+        <li>Expected B.S. graduation: May 2027</li>
+        <li>Minors: Mathematics and Statistics</li>
+        <li>Cincinnati, Ohio</li>
+      </ul>
+    </div>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html" data-page="home">Home</a>
+      <a href="research.html" data-page="research">Research</a>
+      <a href="bio.html" data-page="bio">Bio</a>
+    </nav>
+    <ul class="link-list" aria-label="Profile links">
+      <li><a href="mailto:gareeis@mail.uc.edu"><span>Email</span><span>↗</span></a></li>
+      <li><a href="https://github.com/isgaree"><span>GitHub</span><span>↗</span></a></li>
+      <li><a href="https://www.linkedin.com/in/isgaree/"><span>LinkedIn</span><span>↗</span></a></li>
+      <li><a href="assets/Isaac_Garee_Resume_2026.pdf"><span>Resume</span><span>PDF</span></a></li>
+    </ul>
+  </section>
+</aside>
+    <main>
+      <section class="content-card">
+<p class="eyebrow">Research</p>
+<h2>Projects and research experience</h2>
+<p class="lede">My work focuses on optimization, stochastic modeling, and computational experiments for real-world decision systems.</p>
+
+<article class="project">
+  <span class="status">Ongoing research</span>
+  <h3>Stochastic Methods for Bilevel Optimization</h3>
+  <p>I am an undergraduate researcher working on bilevel optimization methods, with a focus on derivative-free and stochastic approaches. My work has involved implementing and comparing bilevel algorithms for neural architecture search, including DARTS, StocBiO, and derivative-free bilevel search methods.</p>
+  <p>This project has helped me develop experience with optimization algorithms, machine learning experiments, technical writing, and reproducible computational research.</p>
+</article>
+
+<article class="project">
+  <span class="status">Summer research</span>
+  <h3>3D Printing Flexibility in Supply Chains</h3>
+  <p>As part of a summer research program at USC, I worked on simulation-based models for studying flexibility in supply chains, particularly in settings where 3D printing can be used to replace or supplement traditional manufacturing.</p>
+  <p>The project involved building and analyzing stochastic simulations of assembly systems, studying inventory dynamics, cycle times, and throughput under different flexibility assumptions. This work strengthened my interest in stochastic modeling and operations research applications.</p>
+</article>
+
+<article class="project">
+  <span class="status">Course project</span>
+  <h3>Outpatient Clinic Stochastic Programming Project</h3>
+  <p>For a stochastic programming course project, I modeled an outpatient clinic scheduling problem with uncertainty in patient no-shows, walk-in arrivals, and service times.</p>
+  <p>The project used a two-stage stochastic programming framework to study scheduling, wait times, idle time, overtime, and rejected walk-ins. This project helped connect optimization modeling with healthcare operations, one of my long-term areas of interest.</p>
+</article>
+
+      </section>
+      <footer class="footer">© 2026 Isaac Garee. Built as a lightweight static site for GitHub Pages.</footer>
+    </main>
+  </div>
+  <script>
+    const current = document.body.dataset.page;
+    document.querySelectorAll('[data-page]').forEach((link) => {
+      if (link.dataset.page === current) link.classList.add('active');
+    });
+  </script>
+</body>
+</html>

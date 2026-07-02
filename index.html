@@ -1,0 +1,82 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal academic website for Isaac Garee, an Industrial & Systems Engineering undergraduate student at the University of Cincinnati.">
+  <title>Isaac Garee</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="home">
+  <div class="site-shell">
+    <aside class="sidebar" aria-label="Profile sidebar">
+  <section class="profile-card">
+    <img class="profile-photo" src="assets/profile.jpg" alt="Portrait of Isaac Garee">
+    <div class="profile-main">
+      <h1>Isaac Garee</h1>
+      <p class="role">Industrial &amp; Systems Engineering<br>University of Cincinnati</p>
+      <ul class="meta-list">
+        <li>Expected B.S. graduation: May 2027</li>
+        <li>Minors: Mathematics and Statistics</li>
+        <li>Cincinnati, Ohio</li>
+      </ul>
+    </div>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html" data-page="home">Home</a>
+      <a href="research.html" data-page="research">Research</a>
+      <a href="bio.html" data-page="bio">Bio</a>
+    </nav>
+    <ul class="link-list" aria-label="Profile links">
+      <li><a href="mailto:gareeis@mail.uc.edu"><span>Email</span><span>↗</span></a></li>
+      <li><a href="https://github.com/isgaree"><span>GitHub</span><span>↗</span></a></li>
+      <li><a href="https://www.linkedin.com/in/isgaree/"><span>LinkedIn</span><span>↗</span></a></li>
+      <li><a href="assets/Isaac_Garee_Resume_2026.pdf"><span>Resume</span><span>PDF</span></a></li>
+    </ul>
+  </section>
+</aside>
+    <main>
+      <section class="content-card">
+<p class="eyebrow">Personal academic website</p>
+<h2>Hi, I’m Isaac Garee.</h2>
+<p class="lede">I am an undergraduate student in Industrial &amp; Systems Engineering at the University of Cincinnati, with minors in Mathematics and Statistics.</p>
+<p>My research interests center on optimization under uncertainty, including bilevel, stochastic, and derivative-free optimization methods. I am interested in both the theory behind optimization algorithms and how these methods can be applied to practical problems in healthcare, supply chains, and machine learning.</p>
+<p>I have worked on research projects involving bilevel optimization for neural architecture search and stochastic models for flexible supply chains. More broadly, I am interested in using operations research to improve real-world decision-making in complex systems.</p>
+<div class="button-row">
+  <a class="button primary" href="research.html">View research</a>
+  <a class="button" href="bio.html">Read bio</a>
+  <a class="button" href="mailto:gareeis@mail.uc.edu">Contact me</a>
+</div>
+<div class="divider"></div>
+<h3>Research interests</h3>
+<div class="grid">
+  <div class="tile">
+    <h4>Optimization under uncertainty</h4>
+    <p>Modeling and algorithmic approaches for decision-making when systems are stochastic, partially observed, or data-limited.</p>
+  </div>
+  <div class="tile">
+    <h4>Bilevel and derivative-free optimization</h4>
+    <p>Methods for hierarchical decision problems, especially when the upper-level variables are discrete, mixed-integer, or expensive to evaluate.</p>
+  </div>
+  <div class="tile">
+    <h4>Healthcare operations</h4>
+    <p>Optimization models for scheduling, resource allocation, uncertainty, and patient-centered operational decisions.</p>
+  </div>
+  <div class="tile">
+    <h4>Supply chains and machine learning</h4>
+    <p>Applications of stochastic simulation, flexibility, and optimization to manufacturing systems and ML model selection.</p>
+  </div>
+</div>
+
+      </section>
+      <footer class="footer">© 2026 Isaac Garee. Built as a lightweight static site for GitHub Pages.</footer>
+    </main>
+  </div>
+  <script>
+    const current = document.body.dataset.page;
+    document.querySelectorAll('[data-page]').forEach((link) => {
+      if (link.dataset.page === current) link.classList.add('active');
+    });
+  </script>
+</body>
+</html>
