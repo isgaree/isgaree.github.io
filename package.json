@@ -1,0 +1,10 @@
+{
+  "name": "isgaree.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Academic website for Isaac Garee, adapted from mraoaakash/academic-website-template.",
+  "scripts": {
+    "dev": "python3 scripts/reload_server.py --port 8000",
+    "dev:simple": "python3 -m http.server 9100"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2026-07-22",
+    "text": "Building this academic website and organizing research materials for graduate applications, posters, and project pages.",
+    "image": "",
+    "gif": "",
+    "url": "",
+    "url_label": ""
+  },
+  {
+    "date": "2026-06-01",
+    "text": "Started a USC summer research project on stochastic models for flexibility in supply chains and 3D printing-enabled assembly systems.",
+    "image": "",
+    "gif": "",
+    "url": "pages/projects/supply-chain-flexibility.html",
+    "url_label": "Project page"
+  },
+  {
+    "date": "2026-04-01",
+    "text": "Continued undergraduate research on stochastic and derivative-free bilevel optimization methods for neural architecture search.",
+    "image": "",
+    "gif": "",
+    "url": "pages/projects/stochastic-bilevel-optimization.html",
+    "url_label": "Project page"
+  }
+]

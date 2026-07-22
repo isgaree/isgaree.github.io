@@ -1,0 +1,137 @@
+[
+  {
+    "title": "Education",
+    "entries": [
+      {
+        "title": "B.S., Industrial and Systems Engineering",
+        "organization": "University of Cincinnati",
+        "dates": "Expected May 2027",
+        "logo": "assets/images/uc-mark.svg",
+        "logo_alt": "University of Cincinnati mark",
+        "flag": "US",
+        "flag_alt": "United States flag",
+        "bullets": [
+          "Minors in Mathematics and Statistics.",
+          "Selected coursework: linear algebra, probabilistic systems models, deterministic systems models, data science, Python programming, probability and statistics."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Research Experience",
+    "entries": [
+      {
+        "title": "Undergraduate Researcher",
+        "organization": "University of Cincinnati · advised by Prof. Tommaso Giovannelli",
+        "dates": "Apr 2025 - Present",
+        "logo": "assets/images/uc-mark.svg",
+        "logo_alt": "University of Cincinnati mark",
+        "flag": "US",
+        "flag_alt": "United States flag",
+        "bullets": [
+          "Researching mixed-integer bilevel optimization methods with derivative-free and stochastic components.",
+          "Implemented PyTorch experiments for neural architecture search and compared bilevel algorithms including DARTS, StocBiO, and derivative-free bilevel search methods.",
+          "Contributed to theoretical analysis, computational experiments, and a research manuscript in preparation."
+        ]
+      },
+      {
+        "title": "Summer Researcher",
+        "organization": "USC summer research program",
+        "dates": "Summer 2026",
+        "logo": "assets/images/uc-mark.svg",
+        "logo_alt": "Institution mark placeholder",
+        "flag": "US",
+        "flag_alt": "United States flag",
+        "bullets": [
+          "Built and analyzed stochastic simulations of assembly systems with flexible production enabled by 3D printing.",
+          "Studied inventory dynamics, cycle times, and throughput under different flexibility assumptions."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Industry Experience",
+    "entries": [
+      {
+        "title": "Industrial and Systems Engineering Co-op",
+        "organization": "Kaivac",
+        "dates": "Jan 2024 - Dec 2024",
+        "logo": "assets/images/uc-mark.svg",
+        "logo_alt": "Company mark placeholder",
+        "flag": "US",
+        "flag_alt": "United States flag",
+        "bullets": [
+          "Reduced inbound inspection process time by identifying bottlenecks and implementing targeted process improvements.",
+          "Built Power BI dashboards and introduced SPC metrics for production and quality monitoring.",
+          "Expanded data tracking infrastructure to capture previously unmeasured process variables."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Projects",
+    "entries": [
+      {
+        "title": "Outpatient Clinic Stochastic Programming Project",
+        "organization": "Course project",
+        "dates": "2025",
+        "logo": "assets/images/projects/clinic.svg",
+        "logo_alt": "Clinic project mark",
+        "bullets": [
+          "Modeled scheduling decisions under patient no-shows, walk-in arrivals, and stochastic service times using a two-stage stochastic programming framework."
+        ]
+      },
+      {
+        "title": "Risk Assessment Model for Osteoradionecrosis",
+        "organization": "Python / Machine Learning project",
+        "dates": "Apr 2024 - May 2024",
+        "logo": "assets/images/projects/orn.svg",
+        "logo_alt": "Risk modeling project mark",
+        "bullets": [
+          "Developed a population-based risk assessment model using dose-volume histograms and pre-radiation dental extraction status."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Skills",
+    "entries": [
+      {
+        "title": "Programming and Tools",
+        "organization": "Python, R, PyTorch, NumPy, SciPy, Pandas, LaTeX, Gurobi, Excel, Jupyter Notebooks",
+        "dates": "",
+        "logo": "assets/images/uc-mark.svg",
+        "logo_alt": "Skills icon"
+      },
+      {
+        "title": "Technical Interests",
+        "organization": "Bilevel optimization, stochastic modeling, machine learning, derivative-free optimization, healthcare operations, supply chains",
+        "dates": "",
+        "logo": "assets/images/uc-mark.svg",
+        "logo_alt": "Skills icon"
+      }
+    ]
+  },
+  {
+    "title": "Activities and Honors",
+    "entries": [
+      {
+        "title": "Secretary",
+        "organization": "Industrial & Systems Engineering Student Association",
+        "dates": "Jan 2024 - Jan 2025",
+        "logo": "assets/images/uc-mark.svg",
+        "logo_alt": "Student organization mark",
+        "bullets": [
+          "Coordinated meeting logistics, recorded minutes, and helped organize guest speaker sessions."
+        ]
+      },
+      {
+        "title": "Shidecker Memorial Golden Eagle Scholarship",
+        "organization": "Shidecker Memorial Foundation",
+        "dates": "Aug 2022 - May 2023",
+        "logo": "assets/images/uc-mark.svg",
+        "logo_alt": "Award mark"
+      }
+    ]
+  }
+]
