@@ -1,0 +1,103 @@
+# Academic Pages starter for isgaree.github.io
+# Based on https://github.com/academicpages/academicpages.github.io
+
+locale                   : "en-US"
+site_theme               : "default"
+title                    : "Isaac Garee"
+title_separator          : "-"
+name                     : &name "Isaac Garee"
+description              : &description "Industrial & Systems Engineering undergraduate at the University of Cincinnati."
+url                      : "https://isgaree.github.io"
+baseurl                  : ""
+repository               : "isgaree/isgaree.github.io"
+
+# Pull the Academic Pages theme at build time.
+remote_theme             : "academicpages/academicpages.github.io"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Site Author - displayed in the left sidebar.
+author:
+  avatar           : "profile.jpg"
+  name             : "Isaac Garee"
+  pronouns         :
+  bio              : "Industrial & Systems Engineering undergraduate at the University of Cincinnati."
+  location         : "Cincinnati, OH"
+  employer         : "University of Cincinnati"
+  uri              :
+  email            : "gareeis@mail.uc.edu"
+
+  # Academic profiles
+  academia         :
+  arxiv            :
+  googlescholar    :
+  inspire-hep      :
+  impactstory      :
+  orcid            :
+  semantic         :
+  ssrn             :
+  pubmed           :
+  researchgate     :
+  scopus           :
+  zotero           :
+
+  # Code and professional links
+  github           : "isgaree"
+  linkedin         : "isgaree"
+
+  # Social media left blank by default
+  bluesky          :
+  twitter          :
+  instagram        :
+  youtube          :
+
+# Site settings
+teaser                   :
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
+comments:
+  provider               : false
+atom_feed:
+  hide                   : true
+
+# SEO / social
+analytics:
+  provider               : false
+social:
+  type                   : Person
+  name                   : "Isaac Garee"
+  links:
+    - "https://github.com/isgaree"
+    - "https://www.linkedin.com/in/isgaree/"
+
+# Make the _pages directory work as normal pages.
+include:
+  - _pages
+  - files
+
+# Keep build clutter out of the site.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - .sass-cache
+  - .jekyll-cache
+  - .git
+  - .github
+
+# Page defaults.
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
