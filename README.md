@@ -1,51 +1,17 @@
-# Isaac Garee academic website
+# Isaac Garee personal website
 
-This is a lightweight GitHub Pages academic website adapted from the structure of `mraoaakash/academic-website-template`.
+This is a lightweight one-page academic website for GitHub Pages.
 
-## Edit content
+## Upload
 
-Most content lives in JSON files:
+Upload these files to the root of your `isgaree.github.io` repository:
 
-- `content/site.json` — name, bio, contact, links, navigation
-- `content/projects.json` — research project cards
-- `content/news.json` — news feed
-- `content/cv.json` — CV sections
-- `content/publications.json` — research outputs / future publications
+- `index.html`
+- `.nojekyll`
+- `README.md`
 
-Images and PDFs live in `assets/`.
+The profile photo is embedded directly in `index.html`, so there is no separate image path to break.
 
-## Preview locally
+## Edit
 
-Because the site loads JSON files, do not open `index.html` directly as a `file://` URL. Run a local server instead:
-
-```bash
-python3 -m http.server 9100
-```
-
-Then open:
-
-```text
-http://localhost:9100
-```
-
-## Deploy
-
-Upload the contents of this folder to the root of the `isgaree.github.io` repository.
-
-Make sure these paths exist at the repository root:
-
-```text
-index.html
-content/site.json
-site/styles.css
-assets/images/profile.jpg
-pages/projects.html
-pages/cv.html
-```
-
-GitHub Pages should be set to deploy from:
-
-```text
-Branch: main
-Folder: /root
-```
+Open `index.html` and edit the text directly. The CSS is also inside the file near the top.
