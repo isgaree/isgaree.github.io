@@ -13,18 +13,27 @@ Bachelor of Science, Industrial & Systems Engineering
 Minors: Mathematics and Statistics  
 Expected May 2027
 
-Relevant coursework includes linear algebra, deterministic systems models, probabilistic systems models, data science, Python programming, probability, and statistics.
+Relevant coursework includes deterministic systems models, stochastic programming, probability, statistics, linear algebra, data structures and algorithms, and Python programming.
 
 ## Research Experience
+
+**Summer Scholar**  
+University of Southern California, advised by Prof. Andrew Daw and Prof. Vishal Gupta  
+May 2026 -- August 2026
+
+- Studied stochastic models of manufacturing flexibility in assembly systems.
+- Built and analyzed simulation models for inventory dynamics, cycle times, and throughput.
+- Investigated steady-state behavior, scaling relationships, and asymptotic phenomena in large systems.
+- Used computational experiments to develop and evaluate conjectures about system behavior.
 
 **Undergraduate Researcher**  
 University of Cincinnati, advised by Prof. Tommaso Giovannelli  
 April 2025 -- Present
 
-- Researching stochastic and derivative-free methods for mixed-integer bilevel optimization.
-- Implementing and benchmarking bilevel algorithms for neural architecture search.
-- Developing computational experiments involving finite-difference gradients, Hessian-free updates, and line-search methods.
-- Contributing to theoretical development and research writing for a ongoing research.
+- Studying stochastic and derivative-free methods for mixed-integer bilevel optimization.
+- Developing and benchmarking a derivative-free bilevel search method for neural architecture search.
+- Comparing computational performance with DARTS and StocBiO under controlled resource budgets.
+- Contributing to algorithm development, computational experimentation, technical writing, and research presentations.
 
 ## Industry Experience
 
@@ -32,24 +41,22 @@ April 2025 -- Present
 Kaivac, Hamilton, Ohio  
 January 2024 -- December 2024
 
-- Worked on process improvement, quality monitoring, and data visualization projects.
+- Completed process-improvement, quality-monitoring, and data-visualization projects.
 - Built Power BI dashboards to support production and management decisions.
-- Applied value stream mapping, control charts, and SPC metrics to manufacturing workflows.
+- Applied value-stream mapping, control charts, and statistical process-control metrics to manufacturing workflows.
 
-## Projects
+## Selected Projects
+
+**Outpatient Clinic Scheduling Under Uncertainty**  
+Developed a two-stage stochastic programming model for appointment scheduling under uncertainty in no-shows, walk-ins, and service times.
 
 **Risk Assessment Model for Osteoradionecrosis**  
-Python / Machine Learning
-
-Developed a population-based risk assessment model using a dataset of head and neck cancer patients, applying clustering and validation methods to study ORN risk categories.
-
-**Outpatient Clinic Stochastic Programming Project**  
-Modeled an outpatient clinic scheduling problem under uncertainty in no-shows, walk-ins, and service times using a two-stage stochastic programming framework.
+Developed a population-based risk assessment model using Python and machine-learning methods to study risk categories among head and neck cancer patients.
 
 ## Skills
 
 **Programming and tools:** Python, R, PyTorch, NumPy, SciPy, Pandas, LaTeX, Gurobi, Excel, Jupyter Notebooks  
-**Technical areas:** Bilevel optimization, machine learning, stochastic modeling, derivative-free optimization, value stream mapping
+**Technical areas:** Stochastic modeling, simulation, bilevel optimization, derivative-free optimization, machine learning, and data visualization
 
 ## Activities and Honors
 

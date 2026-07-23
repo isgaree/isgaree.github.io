@@ -4,32 +4,34 @@ title: "Research"
 author_profile: true
 ---
 
+## Stochastic Supply Chain Systems
+
+**USC Summer Scholars, Summer 2026**  
+Advised by Prof. Andrew Daw and Prof. Vishal Gupta
+
+I am studying stochastic models of manufacturing flexibility in assembly systems. The project examines how emergency production capabilities, such as additive manufacturing, affect inventory dynamics and system performance.
+
+My current work combines simulation and probabilistic analysis to study steady-state behavior, scaling relationships, and asymptotic phenomena in large systems. This project has strengthened my interest in applied probability, stochastic processes, and the ways simulation can guide theoretical investigation.
+
 ## Stochastic Methods for Bilevel Optimization
 
-**Status:** Undergraduate research project; ongoing research.
+**University of Cincinnati, 2025–Present**  
+Advised by Prof. Tommaso Giovannelli
 
-I am an undergraduate researcher working on bilevel optimization methods, with a focus on derivative-free and stochastic approaches. My work has involved implementing and comparing bilevel algorithms for neural architecture search, including DARTS, StocBiO, and derivative-free bilevel search methods.
+I am studying stochastic and derivative-free methods for mixed-integer bilevel optimization. My work has focused on developing and evaluating a derivative-free bilevel search approach for problems with discrete and continuous upper-level decisions.
 
-This project has helped me develop experience with optimization algorithms, machine learning experiments, technical writing, and reproducible computational research.
+The primary computational application is neural architecture search. I have implemented and benchmarked the proposed approach against DARTS and StocBiO, designed controlled computational experiments, and contributed to the technical development and presentation of the project.
 
-## 3D Printing Flexibility in Supply Chains
+## Outpatient Clinic Scheduling Under Uncertainty
 
-**Status:** USC summer research project.
+**Stochastic Programming Course Project**
 
-As part of a summer research program at USC, I worked on simulation-based models for studying flexibility in stochastic supply chains, particularly in settings where manufacturing flexibility in can be used to replace or supplement traditional manufacturing.
+I modeled an outpatient clinic scheduling problem with uncertainty in patient no-shows, walk-in arrivals, and service times. The model used a two-stage stochastic programming framework to study tradeoffs among patient waiting, provider idle time, overtime, and rejected walk-ins.
 
-The project involved building and analyzing stochastic simulations of assembly systems, studying inventory dynamics, cycle times, and throughput under different flexibility assumptions. This work strengthened my interest in stochastic modeling and operations research applications.
-
-## Outpatient Clinic Stochastic Programming Project
-
-**Status:** Course research project.
-
-For a stochastic programming course project, I modeled an outpatient clinic scheduling problem with uncertainty in patient no-shows, walk-in arrivals, and service times.
-
-The project used a two-stage stochastic programming framework to study scheduling, wait times, idle time, overtime, and rejected walk-ins. This project helped connect optimization modeling with healthcare operations, one of my long-term areas of interest.
+This project introduced me to healthcare operations research and showed how stochastic optimization can translate uncertain operational conditions into structured decisions.
 
 ## Additional project experience
 
-- Risk assessment modeling for osteoradionecrosis using Python and machine learning.
-- Industrial engineering process improvement and data visualization projects during co-op experience.
-- Computational experiments involving stochastic modeling, simulation, and optimization algorithms.
+- Developed a population-based risk assessment model for osteoradionecrosis using Python and machine-learning methods.
+- Completed industrial engineering projects in process improvement, quality monitoring, and data visualization during a co-op at Kaivac.
+- Conducted computational experiments involving stochastic modeling, simulation, optimization, and machine learning.

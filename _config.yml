@@ -6,7 +6,7 @@ site_theme               : "default"
 title                    : "Isaac Garee"
 title_separator          : "-"
 name                     : &name "Isaac Garee"
-description              : &description "Industrial & Systems Engineering undergraduate at the University of Cincinnati."
+description              : &description "Industrial & Systems Engineering undergraduate studying stochastic systems and optimization under uncertainty."
 url                      : "https://isgaree.github.io"
 baseurl                  : ""
 repository               : "isgaree/isgaree.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Isaac Garee"
   pronouns         :
-  bio              : "Industrial & Systems Engineering undergraduate at the University of Cincinnati."
+  bio              : "Undergraduate researcher in stochastic systems and optimization under uncertainty."
   location         : "Cincinnati, OH"
   employer         : "University of Cincinnati"
   uri              :
