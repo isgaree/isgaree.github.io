@@ -24,7 +24,7 @@ April 2025 -- Present
 - Researching stochastic and derivative-free methods for mixed-integer bilevel optimization.
 - Implementing and benchmarking bilevel algorithms for neural architecture search.
 - Developing computational experiments involving finite-difference gradients, Hessian-free updates, and line-search methods.
-- Contributing to theoretical development and research writing for a manuscript in preparation.
+- Contributing to theoretical development and research writing for a ongoing research.
 
 ## Industry Experience
 

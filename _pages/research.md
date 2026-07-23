@@ -6,7 +6,7 @@ author_profile: true
 
 ## Stochastic Methods for Bilevel Optimization
 
-**Status:** Undergraduate research project; manuscript in preparation.
+**Status:** Undergraduate research project; ongoing research.
 
 I am an undergraduate researcher working on bilevel optimization methods, with a focus on derivative-free and stochastic approaches. My work has involved implementing and comparing bilevel algorithms for neural architecture search, including DARTS, StocBiO, and derivative-free bilevel search methods.
 
@@ -16,7 +16,7 @@ This project has helped me develop experience with optimization algorithms, mach
 
 **Status:** USC summer research project.
 
-As part of a summer research program at USC, I worked on simulation-based models for studying flexibility in supply chains, particularly in settings where 3D printing can be used to replace or supplement traditional manufacturing.
+As part of a summer research program at USC, I worked on simulation-based models for studying flexibility in stochastic supply chains, particularly in settings where manufacturing flexibility in can be used to replace or supplement traditional manufacturing.
 
 The project involved building and analyzing stochastic simulations of assembly systems, studying inventory dynamics, cycle times, and throughput under different flexibility assumptions. This work strengthened my interest in stochastic modeling and operations research applications.
 
