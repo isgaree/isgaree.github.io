@@ -23,7 +23,7 @@ Studying stochastic systems, optimization under uncertainty, and the asymptotic 
 - Applied probability
 - Stochastic modeling and simulation
 - Decision-making under uncertainty
-- Healthcare operations research
+- Bilevel Otimization 
 
 ## Research vision
 
@@ -33,7 +33,6 @@ I am interested in understanding how uncertainty influences decision-making in c
 
 - How should optimization models account for systems that respond to decisions?
 - What asymptotic structure emerges in large stochastic systems?
-- When can simulation reveal mathematical phenomena?
 - How can stochastic models improve real-world decision-making?
 
 ## Education
