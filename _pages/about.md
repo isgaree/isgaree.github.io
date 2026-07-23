@@ -46,7 +46,6 @@ Expected graduation: May 2027
 ## Recent news
 
 - **Summer 2026:** Joined the USC Summer Scholars program to study stochastic models for flexible supply chains.
-- **2026:** Poster accepted for presentation at the INFORMS Annual Meeting.
 - **2025–Present:** Conducting undergraduate research in stochastic and derivative-free bilevel optimization at the University of Cincinnati.
 
 *Last updated: July 2026.*
