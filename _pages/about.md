@@ -7,33 +7,22 @@ redirect_from:
   - /about.html
 ---
 
-I am an undergraduate student in Industrial & Systems Engineering at the University of Cincinnati, pursuing minors in Mathematics and Statistics.
+I am an undergraduate student in Industrial & Systems Engineering at the University of Cincinnati, pursuing minors in Mathematics and Statistics. My research focuses on operations research and stochastic systems, specifically developing mathematical models for decision-making under uncertainty.
 
-My research interests lie in operations research and stochastic systems. I am interested in developing mathematical models and computational methods for decision-making under uncertainty, particularly in settings where decisions and uncertainty interact over time.
-
-My recent work has explored stochastic simulation, bilevel optimization, and asymptotic analysis, with applications in supply chains, machine learning, and healthcare operations. I hope to pursue research that combines probability, optimization, and simulation to better understand and improve complex stochastic systems.
-
-## Current focus
-
-Studying stochastic systems, optimization under uncertainty, and the asymptotic behavior of large-scale decision models.
+My recent work explores stochastic simulation, derivative-free bilevel optimization, and asymptotic analysis. By bridging probability, optimization, and simulation, my long-term goal is to build computational methods that improve the responsiveness and efficiency of complex systems—with current applications in healthcare operations, machine learning, and flexible supply chains.
 
 ## Research interests
 
-- Stochastic optimization
-- Applied probability
-- Stochastic modeling and simulation
-- Decision-making under uncertainty
-- Bilevel Otimization 
-
-## Research vision
-
-I am interested in understanding how uncertainty influences decision-making in complex systems. My long-term goal is to develop mathematical models and computational methods that bridge optimization, probability, and simulation, with applications in healthcare operations, adaptive supply chains, and learning systems.
+- Stochastic optimization & applied probability
+- Derivative-free and bilevel optimization
+- Asymptotic behavior of large-scale decision models
+- Stochastic modeling (e.g., queuing theory and simulation)
 
 ## Current research questions
 
-- How should optimization models account for systems that respond to decisions?
-- What asymptotic structure emerges in large stochastic systems?
-- How can stochastic models improve real-world decision-making?
+- How should optimization models dynamically account for systems that respond to decisions?
+- What asymptotic structures emerge in large-scale stochastic systems?
+- How can stochastic modeling bridge the gap between theoretical optimization and real-world decision-making?
 
 ## Education
 
