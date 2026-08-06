@@ -9,9 +9,7 @@ author_profile: true
 **USC Summer Scholars, Summer 2026**  
 Advised by Prof. Andrew Daw and Prof. Vishal Gupta
 
-I am studying stochastic models of manufacturing flexibility in assembly systems. The project examines how emergency production capabilities, such as additive manufacturing, affect inventory dynamics and system performance.
-
-My current work combines simulation and probabilistic analysis to study steady-state behavior, scaling relationships, and asymptotic phenomena in large systems. This project has strengthened my interest in applied probability, stochastic processes, and the ways simulation can guide theoretical investigation.
+I am studying stochastic models in assembly systems to understand how storage levels affect system dynamics. These theoretical foundations open pathways for future work to evaluate how emergency production capabilities, such as additive manufacturing, alter inventory behavior and system outcomes.
 
 ## Stochastic Methods for Bilevel Optimization
 
