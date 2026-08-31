@@ -37,7 +37,9 @@
 ;
 
 /* Hide Academic Pages footer */
-.page__footer {
+.page__footer,
+.page__footer-follow,
+.page__footer-copyright {
   display: none !important;
 }
 
