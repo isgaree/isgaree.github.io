@@ -19,17 +19,18 @@ author_profile: true
 
     <p>
       During my summer at USC, I studied a stochastic assembly system where
-      products require many different components and each component can be
-      stored up to some buffer capacity. I used simulation to explore how the
-      number of missing components behaves as the system gets large and as
-      buffer capacity changes.
+      products require many different component types and inventory is limited
+      by a fixed buffer capacity. I used simulation to study the steady-state
+      number of missing component types and how its behavior changes as the
+      system size and buffer capacity grow.
     </p>
-
+    
     <p>
-      What started as a simulation project led to some interesting asymptotic
-      questions. Much of my current work is focused on understanding the
-      scaling behavior we observed computationally and how the known results
-      for small buffer sizes might extend to the general case.
+      What started as a simulation project quickly led to some interesting
+      asymptotic questions. We observed surprisingly consistent scaling behavior
+      across different buffer capacities, and much of my work since then has
+      focused on understanding why it occurs and how known results for the
+      simplest cases might extend to general buffer sizes.
     </p>
 
     <div class="research-links">
