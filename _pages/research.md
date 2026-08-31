@@ -18,16 +18,18 @@ author_profile: true
     </div>
 
     <p>
-      I study stochastic models of assembly systems to understand how storage
-      levels affect system dynamics. These theoretical foundations open pathways
-      for future work on how emergency production capabilities, such as additive
-      manufacturing, alter inventory behavior and system outcomes.
+      During my summer at USC, I studied a stochastic assembly system where
+      products require many different components and each component can be
+      stored up to some buffer capacity. I used simulation to explore how the
+      number of missing components behaves as the system gets large and as
+      buffer capacity changes.
     </p>
 
     <p>
-      My work combines stochastic simulation with asymptotic analysis, with a
-      particular focus on understanding how the steady-state number of missing
-      component types scales with system size and buffer capacity.
+      What started as a simulation project led to some interesting asymptotic
+      questions. Much of my current work is focused on understanding the
+      scaling behavior we observed computationally and how the known results
+      for small buffer sizes might extend to the general case.
     </p>
 
     <div class="research-links">
@@ -60,17 +62,19 @@ author_profile: true
     </div>
 
     <p>
-      I study stochastic and derivative-free methods for mixed-integer bilevel
-      optimization. My work has focused on developing and evaluating a
-      derivative-free bilevel search approach for problems with discrete and
-      continuous upper-level decisions.
+      My work at Cincinnati focuses on bilevel optimization problems where
+      some of the upper-level decisions are discrete and some are continous.
+      We developed an approach that utilizes a derivative-free approach that 
+      searches over these discrete decisions and a gradient method for continous
+      variables.
     </p>
 
     <p>
-      The primary computational application is neural architecture search,
-      where I have implemented and benchmarked the proposed approach against
-      existing NAS methods while studying architecture quality, convergence,
-      and computational efficiency.
+      I've mainly tested the method on neural architecture search, where the
+      upper-level decisions determine the architecture of a neural network
+      and the lower-level problem trains its weights. I've compared our
+      approach with methods including DARTS and StocBiO and have also worked
+      on the theoretical properties of the algorithm.
     </p>
 
     <div class="research-links">
@@ -83,7 +87,7 @@ author_profile: true
   <div class="research-thumbnail">
     <img
       src="/images/research/bilevel-optimization.png"
-      alt="Mixed-integer bilevel optimization research">
+      alt="Bilevel optimization research">
   </div>
 
 </div>
@@ -100,15 +104,11 @@ author_profile: true
   </div>
 
   <p>
-    I modeled an outpatient clinic scheduling problem with uncertainty in
-    patient no-shows, walk-in arrivals, and service times. The model uses a
-    two-stage stochastic programming framework to study tradeoffs among patient
-    waiting, provider idle time, overtime, and rejected walk-ins.
-  </p>
-
-  <p>
-    The project examined how changes in uncertainty and operating costs affect
-    scheduling decisions and system performance.
+    For my stochastic programming course, I built a two-stage model for
+    outpatient clinic scheduling with uncertain no-shows, walk-in arrivals,
+    and service times. I used the model to see how different scheduling
+    decisions affect patient waiting, provider idle time, overtime, and
+    rejected walk-ins.
   </p>
 
 </div>
