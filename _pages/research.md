@@ -42,7 +42,7 @@ author_profile: true
 
   <div class="research-thumbnail">
     <img
-      src="/images/research/supply-chain-scaling.png"
+      src="/files/figure1_geom_vs_k.png"
       alt="Scaling behavior in the stochastic assembly system">
   </div>
 
