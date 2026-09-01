@@ -34,8 +34,8 @@ author_profile: true
     </p>
 
     <div class="research-links">
-      <a href="/files/usc-summer-slides.pdf">[slides]</a>
-      <a href="YOUR-USC-GITHUB-REPO">[repo]</a>
+      <a href="/files/DSOSummerScholarsPresentation.html">[slides]</a>
+      <a href="https://github.com/isgaree/stochastic-assembly-process.git">[repo]</a>
     </div>
 
   </div>
@@ -80,7 +80,7 @@ author_profile: true
     </p>
 
     <div class="research-links">
-      <a href="/files/bilevel-slides.pdf">[slides]</a>
+      <a href="files/Paper__A_stochastic_algorithm_for_mixed_integer_bilevel_optimization_with_applications_to_neural_architecture_search (1).pdf">[slides]</a>
       <a href="YOUR-BILEVEL-GITHUB-REPO">[repo]</a>
     </div>
 
