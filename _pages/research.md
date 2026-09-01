@@ -33,10 +33,9 @@ author_profile: true
       simplest cases might extend to general buffer sizes.
     </p>
 
-    <div class="research-links">
-      <a href="/files/DSOSummerScholarsPresentation.html"
-         target="_blank"
-         rel="noopener">[slides]</a>
+    <a href="/slides/usc-summer/"
+       target="_blank"
+       rel="noopener">[slides]</a>
 
       <a href="https://github.com/isgaree/stochastic-assembly-process"
          target="_blank"
@@ -85,7 +84,7 @@ author_profile: true
     </p>
 
     <div class="research-links">
-      <a href="/files/MOPTA_Slides"
+      <a href="/slides/mopta/MOPTA_Slides.pdf"
          target="_blank"
          rel="noopener">[slides]</a>
 
