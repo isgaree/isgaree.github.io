@@ -291,3 +291,145 @@ body.dark .research-thumbnail img {
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================================================
+   Research image lightbox
+   ========================================================= */
+
+.research-lightbox-image {
+  cursor: zoom-in;
+
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.research-lightbox-image:hover {
+  transform: scale(1.015);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.16);
+}
+
+
+/* Lightbox background */
+
+.research-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 3rem;
+
+  background: rgba(0, 0, 0, 0.82);
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition:
+    opacity 0.2s ease,
+    visibility 0.2s ease;
+}
+
+
+/* Open state */
+
+.research-lightbox.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* Enlarged image */
+
+.research-lightbox img {
+  max-width: min(1100px, 90vw);
+  max-height: 82vh;
+
+  width: auto;
+  height: auto;
+
+  object-fit: contain;
+
+  border-radius: 8px;
+
+  background: #ffffff;
+
+  box-shadow: 0 12px 45px rgba(0, 0, 0, 0.35);
+}
+
+
+/* Caption */
+
+.research-lightbox-caption {
+  margin-top: 1rem;
+
+  color: #ffffff;
+
+  font-size: 0.9rem;
+  text-align: center;
+
+  opacity: 0.85;
+}
+
+
+/* Close button */
+
+.research-lightbox-close {
+  position: absolute;
+
+  top: 1.25rem;
+  right: 1.75rem;
+
+  padding: 0;
+
+  border: none;
+  background: none;
+
+  color: #ffffff;
+
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1;
+
+  cursor: pointer;
+
+  opacity: 0.8;
+
+  transition: opacity 0.15s ease;
+}
+
+.research-lightbox-close:hover {
+  opacity: 1;
+}
+
+
+/* Prevent page scrolling while image is open */
+
+body.lightbox-open {
+  overflow: hidden;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .research-lightbox {
+    padding: 1.25rem;
+  }
+
+  .research-lightbox img {
+    max-width: 94vw;
+    max-height: 78vh;
+  }
+
+  .research-lightbox-close {
+    top: 0.75rem;
+    right: 1rem;
+  }
+
+}
