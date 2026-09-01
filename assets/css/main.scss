@@ -250,3 +250,50 @@ body.dark .research-thumbnail img {
   }
 
 }
+
+/* =========================================================
+   Two-figure research layout
+   ========================================================= */
+
+.research-figure-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.research-figure {
+  min-width: 0;
+}
+
+.research-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+
+  object-fit: contain;
+
+  border-radius: 8px;
+  border: 1px solid rgba(128, 128, 128, 0.22);
+
+  background: #ffffff;
+}
+
+.research-figure-caption {
+  margin-top: 0.5rem;
+
+  text-align: center;
+
+  font-size: 0.75rem;
+  line-height: 1.35;
+
+  opacity: 0.65;
+}
+
+@media (max-width: 700px) {
+  .research-figure-pair {
+    grid-template-columns: 1fr;
+  }
+}
