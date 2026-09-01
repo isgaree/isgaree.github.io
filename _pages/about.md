@@ -9,7 +9,7 @@ redirect_from:
 
 Hi! I'm Isaac, an undergraduate student studying Industrial & Systems Engineering at the University of Cincinnati, with minors in Mathematics and Statistics.
 
-I'm really interested in operations research, especially problems that combine optimization and probability. I like working on problems where there is some uncertainty in the system and we have to figure out how to make good decisions around it. My research has given me the chance to explore this from a few different directions, including bilevel optimization, stochastic simulation, and applied probability.
+I'm really interested in operations research, especially problems that combine optimization and probability. I'm especially drawn to problems where uncertainty makes it difficult to know what the best decision is. My research has given me the chance to explore this from a few different directions, including bilevel optimization, stochastic simulation, and applied probability.
 
 Most recently, I spent the summer at USC working with Prof. Andrew Daw and Prof. Vishal Gupta through the Summer Scholars program. I studied a stochastic assembly model motivated by flexible supply chains. What started as a simulation project ended up pulling me much further into probability and asymptotic analysis than I expected, which has been one of my favorite parts of the project.
 
@@ -22,7 +22,7 @@ Long term, I hope to keep working at the intersection of optimization and stocha
 - Stochastic optimization & applied probability
 - Bilevel and derivative-free optimization
 - Stochastic systems & simulation
-- Healthcare operations
+- Decision making under uncertainty
 
 ## Education
 
