@@ -77,36 +77,25 @@ body {
 
 .research-card-featured {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 250px;
-  gap: 2.25rem;
+  grid-template-columns: minmax(0, 1fr) 265px;
+  gap: 2rem;
   align-items: start;
 }
 
-.research-card-content {
-  min-width: 0;
-}
-
-
-/* =========================================================
-   Research thumbnails
-   ========================================================= */
-
 .research-thumbnail {
-  width: 250px;
-  margin-top: 9.25rem;
+  width: 265px;
+  margin-top: 8.25rem;
 }
 
 .research-thumbnail img {
   width: 100%;
   height: auto;
-  max-height: 190px;
-
+  max-height: 200px;
   object-fit: contain;
   display: block;
 
   border-radius: 8px;
   border: 1px solid rgba(128, 128, 128, 0.22);
-
   background: #ffffff;
 }
 
