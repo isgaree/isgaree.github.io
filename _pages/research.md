@@ -10,7 +10,7 @@ author_profile: true
 
     <div class="research-tag">STOCHASTIC SYSTEMS</div>
 
-    <h2>Stochastic Supply Chain Systems</h2>
+    <h2>Stochastic Assembly Systems</h2>
 
     <div class="research-meta">
       USC Summer Scholars · Summer 2026<br>
