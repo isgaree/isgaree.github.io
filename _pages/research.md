@@ -33,9 +33,10 @@ author_profile: true
       simplest cases might extend to general buffer sizes.
     </p>
 
-    <a href="/slides/usc-summer/"
-       target="_blank"
-       rel="noopener">[slides]</a>
+    <div class="research-links">
+      <a href="/slides/usc-summer/"
+         target="_blank"
+         rel="noopener">[slides]</a>
 
       <a href="https://github.com/isgaree/stochastic-assembly-process"
          target="_blank"
