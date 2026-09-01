@@ -24,7 +24,7 @@ author_profile: true
       number of missing component types and how its behavior changes as the
       system size and buffer capacity grow.
     </p>
-    
+
     <p>
       What started as a simulation project quickly led to some interesting
       asymptotic questions. We observed surprisingly consistent scaling behavior
@@ -34,8 +34,13 @@ author_profile: true
     </p>
 
     <div class="research-links">
-      <a href="/files/DSOSummerScholarsPresentation.html">[slides]</a>
-      <a href="https://github.com/isgaree/stochastic-assembly-process.git">[repo]</a>
+      <a href="/files/DSOSummerScholarsPresentation.html"
+         target="_blank"
+         rel="noopener">[slides]</a>
+
+      <a href="https://github.com/isgaree/stochastic-assembly-process"
+         target="_blank"
+         rel="noopener">[repo]</a>
     </div>
 
   </div>
@@ -65,9 +70,9 @@ author_profile: true
 
     <p>
       My work at Cincinnati focuses on bilevel optimization problems where
-      some of the upper-level decisions are discrete and some are continous.
-      We developed an approach that utilizes a derivative-free approach that 
-      searches over these discrete decisions and a gradient method for continous
+      some of the upper-level decisions are discrete and some are continuous.
+      We developed an approach that uses derivative-free search for the
+      discrete decisions and a gradient-based method for the continuous
       variables.
     </p>
 
@@ -80,37 +85,42 @@ author_profile: true
     </p>
 
     <div class="research-links">
-      <a href="files/Paper__A_stochastic_algorithm_for_mixed_integer_bilevel_optimization_with_applications_to_neural_architecture_search (1).pdf">[slides]</a>
-      <a href="YOUR-BILEVEL-GITHUB-REPO">[repo]</a>
+      <a href="/files/MOPTA_Slides"
+         target="_blank"
+         rel="noopener">[slides]</a>
+
+      <a href="YOUR-BILEVEL-GITHUB-REPO"
+         target="_blank"
+         rel="noopener">[repo]</a>
     </div>
 
   </div>
 
   <div class="research-figure-pair">
 
-  <div class="research-figure">
-    <img
-      src="/files/search_3d_3d_cont.png"
-      alt="Continuous upper-level trajectory"
-      class="research-lightbox-image">
+    <div class="research-figure">
+      <img
+        src="/files/search_3d_3d_cont.png"
+        alt="Continuous upper-level trajectory"
+        class="research-lightbox-image">
 
-    <div class="research-figure-caption">
-      Continuous upper-level trajectory
+      <div class="research-figure-caption">
+        Continuous upper-level trajectory
+      </div>
     </div>
-  </div>
 
-  <div class="research-figure">
-    <img
-      src="/files/search_3d_3d_arch.png"
-      alt="Discrete upper-level trajectory"
-      class="research-lightbox-image">
+    <div class="research-figure">
+      <img
+        src="/files/search_3d_3d_arch.png"
+        alt="Discrete upper-level trajectory"
+        class="research-lightbox-image">
 
-    <div class="research-figure-caption">
-      Discrete upper-level trajectory
+      <div class="research-figure-caption">
+        Discrete upper-level trajectory
+      </div>
     </div>
-  </div>
 
-</div>
+  </div>
 
 </div>
 
@@ -135,7 +145,9 @@ author_profile: true
 
 </div>
 
+
 <div id="research-lightbox" class="research-lightbox">
+
   <button
     class="research-lightbox-close"
     aria-label="Close image">
@@ -151,7 +163,9 @@ author_profile: true
     id="research-lightbox-caption"
     class="research-lightbox-caption">
   </div>
+
 </div>
+
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
