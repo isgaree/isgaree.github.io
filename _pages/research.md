@@ -49,7 +49,7 @@ author_profile: true
 </div>
 
 
-<div class="research-card research-card-featured">
+<div class="research-card">
 
   <div class="research-card-content">
 
@@ -85,11 +85,27 @@ author_profile: true
 
   </div>
 
-  <div class="research-thumbnail">
+  <div class="research-figure-pair">
+
+  <div class="research-figure">
     <img
-      src="/images/research/bilevel-optimization.png"
-      alt="Bilevel optimization research">
+      src="/files/search_3d_3d_cont.png"
+      alt="Continuous upper-level variable trajectory">
+    <div class="research-figure-caption">
+      Continuous variable trajectory
+    </div>
   </div>
+
+  <div class="research-figure">
+    <img
+      src="/files/search_3d_3d_arch.png"
+      alt="Discrete upper-level variable trajectory">
+    <div class="research-figure-caption">
+      Discrete variable trajectory
+    </div>
+  </div>
+
+</div>
 
 </div>
 
