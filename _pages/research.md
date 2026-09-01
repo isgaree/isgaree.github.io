@@ -43,7 +43,8 @@ author_profile: true
   <div class="research-thumbnail">
     <img
       src="/files/figure1_geom_vs_k.png"
-      alt="Scaling behavior in the stochastic assembly system">
+      alt="Scaling behavior in the stochastic assembly system"
+      class="research-lightbox-image">
   </div>
 
 </div>
@@ -90,18 +91,22 @@ author_profile: true
   <div class="research-figure">
     <img
       src="/files/search_3d_3d_cont.png"
-      alt="Continuous upper-level variable trajectory">
+      alt="Continuous upper-level trajectory"
+      class="research-lightbox-image">
+
     <div class="research-figure-caption">
-      Continuous variable trajectory
+      Continuous upper-level trajectory
     </div>
   </div>
 
   <div class="research-figure">
     <img
       src="/files/search_3d_3d_arch.png"
-      alt="Discrete upper-level variable trajectory">
+      alt="Discrete upper-level trajectory"
+      class="research-lightbox-image">
+
     <div class="research-figure-caption">
-      Discrete variable trajectory
+      Discrete upper-level trajectory
     </div>
   </div>
 
@@ -129,3 +134,64 @@ author_profile: true
   </p>
 
 </div>
+
+<div id="research-lightbox" class="research-lightbox">
+  <button
+    class="research-lightbox-close"
+    aria-label="Close image">
+    &times;
+  </button>
+
+  <img
+    id="research-lightbox-img"
+    src=""
+    alt="">
+
+  <div
+    id="research-lightbox-caption"
+    class="research-lightbox-caption">
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const lightbox = document.getElementById("research-lightbox");
+  const lightboxImg = document.getElementById("research-lightbox-img");
+  const lightboxCaption = document.getElementById("research-lightbox-caption");
+  const closeButton = document.querySelector(".research-lightbox-close");
+
+  document.querySelectorAll(".research-lightbox-image").forEach(function (img) {
+
+    img.addEventListener("click", function () {
+      lightboxImg.src = this.src;
+      lightboxImg.alt = this.alt;
+      lightboxCaption.textContent = this.alt;
+
+      lightbox.classList.add("open");
+      document.body.classList.add("lightbox-open");
+    });
+
+  });
+
+  function closeLightbox() {
+    lightbox.classList.remove("open");
+    document.body.classList.remove("lightbox-open");
+  }
+
+  closeButton.addEventListener("click", closeLightbox);
+
+  lightbox.addEventListener("click", function (event) {
+    if (event.target === lightbox) {
+      closeLightbox();
+    }
+  });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+      closeLightbox();
+    }
+  });
+
+});
+</script>
