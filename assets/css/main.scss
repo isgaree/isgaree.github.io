@@ -433,3 +433,166 @@ body.lightbox-open {
   }
 
 }
+
+/* =========================================================
+   Minimal academic styling
+   ========================================================= */
+
+/* Main typography */
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.page__title,
+.archive__item-title {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* Slightly stronger page titles */
+.page__title {
+  font-size: 1.65rem;
+  margin-bottom: 1.25rem;
+}
+
+/* =========================================================
+   Links
+   ========================================================= */
+
+a {
+  color: #9b1c1c;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #9b1c1c;
+}
+
+a:hover {
+  color: #6f1010;
+  text-decoration: underline;
+}
+
+/* =========================================================
+   Navigation
+   ========================================================= */
+
+.masthead {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.22);
+}
+
+.greedy-nav,
+.greedy-nav a,
+.masthead__menu-item {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.greedy-nav a {
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+/* Site name */
+.greedy-nav .site-title {
+  font-weight: 600;
+}
+
+/* =========================================================
+   Sidebar
+   ========================================================= */
+
+.sidebar {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.author__name {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.author__bio {
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.author__urls {
+  font-size: 0.82rem;
+}
+
+/* =========================================================
+   Main page text
+   ========================================================= */
+
+.page__content {
+  font-size: 0.94rem;
+  line-height: 1.7;
+}
+
+.page__content p {
+  margin-bottom: 1.1rem;
+}
+
+/* =========================================================
+   Research cards: preserve layout, simplify appearance
+   ========================================================= */
+
+.research-card {
+  border-radius: 3px;
+
+  transition:
+    transform 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.research-card:hover {
+  transform: translateY(-1px);
+  box-shadow: none;
+  border-color: rgba(128, 128, 128, 0.5);
+}
+
+.research-card h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+.research-tag {
+  font-family: "Courier New", Courier, monospace;
+  color: #9b1c1c;
+  opacity: 1;
+}
+
+.research-meta {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.8rem;
+}
+
+.research-links a {
+  font-family: "Courier New", Courier, monospace;
+  color: #9b1c1c;
+}
+
+/* Slightly less "portfolio card" appearance for figures */
+.research-thumbnail img,
+.research-figure img {
+  border-radius: 2px;
+}
+
+/* =========================================================
+   Horizontal rules
+   ========================================================= */
+
+hr {
+  border: 0;
+  border-top: 1px solid rgba(128, 128, 128, 0.28);
+  margin: 2rem 0;
+}
