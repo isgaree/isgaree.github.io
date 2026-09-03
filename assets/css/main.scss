@@ -36,400 +36,252 @@
     "layout/json_cv"
 ;
 
-/* Hide Academic Pages footer */
-.page__footer,
-.page__footer-follow,
-.page__footer-copyright {
-  display: none !important;
+/* --------------------------------------------------------------------------
+   Custom academic-homepage styling
+   Inspired by minimal mathematics / OR faculty and graduate-student sites.
+   -------------------------------------------------------------------------- */
+
+:root {
+  --ig-text: #111;
+  --ig-link: #e21b1b;
+  --ig-rule: #e8e8e8;
+  --ig-muted: #555;
+}
+
+html {
+  font-size: 17px;
+}
+
+body,
+input,
+button,
+select,
+textarea {
+  font-family: "Courier New", Courier, monospace !important;
+  color: var(--ig-text);
+  background: #fff;
 }
 
 body {
-  margin-bottom: 0;
+  line-height: 1.28;
 }
 
-/* =========================================================
-   Research page
-   ========================================================= */
-
-.research-card {
-  padding: 1.7rem 1.9rem;
-  margin-bottom: 1.75rem;
-
-  border: 1px solid rgba(128, 128, 128, 0.28);
-  border-radius: 11px;
-
-  transition:
-    transform 0.15s ease,
-    border-color 0.15s ease,
-    box-shadow 0.15s ease;
-}
-
-.research-card:hover {
-  transform: translateY(-2px);
-  border-color: rgba(128, 128, 128, 0.45);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.09);
-}
-
-
-/* =========================================================
-   Featured research cards
-   ========================================================= */
-
-.research-card-featured {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 265px;
-  gap: 2rem;
-  align-items: start;
-}
-
-.research-thumbnail {
-  width: 265px;
-  margin-top: 8.25rem;
-}
-
-.research-thumbnail img {
-  width: 100%;
-  height: auto;
-  max-height: 200px;
-  object-fit: contain;
-  display: block;
-
-  border-radius: 8px;
-  border: 1px solid rgba(128, 128, 128, 0.22);
-  background: #ffffff;
-}
-
-
-/* =========================================================
-   Research category label
-   ========================================================= */
-
-.research-tag {
-  margin-bottom: 0.5rem;
-
-  font-size: 0.7rem;
-  font-weight: 650;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-
-  opacity: 0.65;
-}
-
-
-/* =========================================================
-   Project title
-   ========================================================= */
-
-.research-card h2 {
-  margin: 0 0 0.45rem 0;
-  padding: 0;
-
-  font-size: 1.18rem;
-  line-height: 1.25;
-
-  border-bottom: none;
-}
-
-
-/* =========================================================
-   Institution / advisor information
-   ========================================================= */
-
-.research-meta {
-  margin-bottom: 1.2rem;
-
-  font-size: 0.83rem;
-  line-height: 1.5;
-
-  opacity: 0.72;
-}
-
-
-/* =========================================================
-   Project description
-   ========================================================= */
-
-.research-card p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-
-  font-size: 0.94rem;
-  line-height: 1.65;
-}
-
-.research-card p:last-of-type {
-  margin-bottom: 0;
-}
-
-
-/* =========================================================
-   Slides / repo links
-   ========================================================= */
-
-.research-links {
-  margin-top: 1.35rem;
-}
-
-.research-links a {
-  display: inline-block;
-
-  margin-right: 0.85rem;
-
-  font-size: 0.88rem;
-  font-weight: 600;
-
+a,
+a:visited {
+  color: var(--ig-link);
   text-decoration: none;
 }
 
-.research-links a:hover {
+a:hover,
+a:focus {
+  color: var(--ig-link);
   text-decoration: underline;
 }
 
-
-/* =========================================================
-   Dark mode thumbnail handling
-   ========================================================= */
-
-html[data-theme="dark"] .research-thumbnail img,
-body.dark .research-thumbnail img {
-  background: #ffffff;
+/* Masthead: name on the left, sparse navigation on the right. */
+.masthead {
+  border-bottom: 1px solid var(--ig-rule);
+  box-shadow: none;
 }
 
-
-/* =========================================================
-   Tablet
-   ========================================================= */
-
-@media (max-width: 950px) {
-
-  .research-card-featured {
-    grid-template-columns: minmax(0, 1fr) 220px;
-    gap: 1.75rem;
-  }
-
-  .research-thumbnail {
-    width: 220px;
-    margin-top: 8.75rem;
-  }
-
+.masthead__inner-wrap {
+  max-width: 1020px;
+  padding: 1.5rem 0.75rem 1.25rem;
+  font-family: "Courier New", Courier, monospace !important;
 }
 
-
-/* =========================================================
-   Mobile
-   ========================================================= */
-
-@media (max-width: 800px) {
-
-  .research-card {
-    padding: 1.4rem 1.4rem;
-  }
-
-  .research-card-featured {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-
-  .research-thumbnail {
-    width: 100%;
-    margin-top: 0.25rem;
-  }
-
-  .research-thumbnail img {
-    width: 100%;
-    height: auto;
-    max-height: 260px;
-  }
-
-  .research-card h2 {
-    font-size: 1.12rem;
-  }
-
-  .research-card p {
-    font-size: 0.92rem;
-  }
-
+.greedy-nav {
+  background: #fff;
 }
 
-/* =========================================================
-   Two-figure research layout
-   ========================================================= */
-
-.research-figure-pair {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.25rem;
-
-  width: 92%;
-  margin: 1.5rem auto 0.5rem;
+.greedy-nav .site-title {
+  font-size: 1.85rem;
+  font-weight: 400;
+  color: var(--ig-text);
+  letter-spacing: 0;
 }
 
-.research-figure img {
+.greedy-nav a {
+  color: var(--ig-text);
+  font-weight: 400;
+}
+
+.greedy-nav .visible-links a::before {
+  display: none;
+}
+
+.greedy-nav .visible-links a:hover,
+.greedy-nav .visible-links a:focus {
+  color: var(--ig-link);
+}
+
+.greedy-nav .visible-links li + li::before {
+  content: "/";
+  color: var(--ig-text);
+  margin-right: 0.7rem;
+}
+
+.greedy-nav .visible-links li {
+  margin-left: 0.7rem;
+}
+
+/* Main content: no sidebar, compact research-page measure. */
+#main {
+  max-width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.page {
+  width: 100% !important;
+  padding-right: 0 !important;
+}
+
+.page__inner-wrap {
+  float: none;
   width: 100%;
-  height: auto;
-  display: block;
-
-  object-fit: contain;
-
-  border-radius: 8px;
-  border: 1px solid rgba(128, 128, 128, 0.22);
-  background: #ffffff;
 }
 
-.research-figure-caption {
+.page__title {
+  font-family: "Courier New", Courier, monospace !important;
+  font-weight: 700;
+  font-size: 1.55rem;
+  margin-top: 0.3rem;
+}
+
+.page__content {
+  font-family: "Courier New", Courier, monospace !important;
+  font-size: 1rem;
+}
+
+.page__content p,
+.page__content li {
+  line-height: 1.28;
+}
+
+.page__content h2 {
+  font-family: "Courier New", Courier, monospace !important;
+  font-size: 1.45rem;
+  font-weight: 700;
+  border-bottom: 0;
+  margin-top: 1.7rem;
+  margin-bottom: 0.9rem;
+}
+
+.page__content h3,
+.page__content h4 {
+  font-family: "Courier New", Courier, monospace !important;
+}
+
+/* Homepage hero. */
+.home-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 205px;
+  gap: 2.2rem;
+  align-items: start;
   margin-top: 0.5rem;
-
-  text-align: center;
-  font-size: 0.75rem;
-  line-height: 1.35;
-
-  opacity: 0.65;
 }
 
-@media (max-width: 700px) {
-  .research-figure-pair {
-    grid-template-columns: 1fr;
-  }
+.home-copy p {
+  margin: 0 0 1rem;
 }
 
-/* =========================================================
-   Research image lightbox
-   ========================================================= */
-
-.research-lightbox-image {
-  cursor: zoom-in;
-
-  transition:
-    transform 0.18s ease,
-    box-shadow 0.18s ease;
-}
-
-.research-lightbox-image:hover {
-  transform: scale(1.015);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.16);
-}
-
-
-/* Lightbox background */
-
-.research-lightbox {
-  position: fixed;
-  inset: 0;
-  z-index: 9999;
-
+.home-photo-wrap {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-
-  padding: 3rem;
-
-  background: rgba(0, 0, 0, 0.82);
-
-  opacity: 0;
-  visibility: hidden;
-
-  transition:
-    opacity 0.2s ease,
-    visibility 0.2s ease;
+  padding-top: 0.2rem;
 }
 
-
-/* Open state */
-
-.research-lightbox.open {
-  opacity: 1;
-  visibility: visible;
+.home-photo {
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0;
 }
 
-
-/* Enlarged image */
-
-.research-lightbox img {
-  max-width: min(1100px, 90vw);
-  max-height: 82vh;
-
-  width: auto;
-  height: auto;
-
-  object-fit: contain;
-
-  border-radius: 8px;
-
-  background: #ffffff;
-
-  box-shadow: 0 12px 45px rgba(0, 0, 0, 0.35);
+.contact-lines {
+  margin-top: 1.1rem;
 }
 
-
-/* Caption */
-
-.research-lightbox-caption {
-  margin-top: 1rem;
-
-  color: #ffffff;
-
-  font-size: 0.9rem;
-  text-align: center;
-
-  opacity: 0.85;
+.contact-lines > div {
+  margin: 0.25rem 0;
 }
 
-
-/* Close button */
-
-.research-lightbox-close {
-  position: absolute;
-
-  top: 1.25rem;
-  right: 1.75rem;
-
-  padding: 0;
-
-  border: none;
-  background: none;
-
-  color: #ffffff;
-
-  font-size: 2.5rem;
-  font-weight: 300;
-  line-height: 1;
-
-  cursor: pointer;
-
-  opacity: 0.8;
-
-  transition: opacity 0.15s ease;
+.contact-lines .dash {
+  display: inline-block;
+  width: 1.5rem;
 }
 
-.research-lightbox-close:hover {
-  opacity: 1;
+.news-list {
+  margin-top: 0.25rem;
 }
 
-
-/* Prevent page scrolling while image is open */
-
-body.lightbox-open {
-  overflow: hidden;
+.news-row {
+  display: grid;
+  grid-template-columns: 13rem minmax(0, 1fr);
+  column-gap: 1rem;
+  margin: 0.35rem 0;
+  line-height: 1.3;
 }
 
+.news-date {
+  white-space: nowrap;
+}
 
-/* Mobile */
+/* Keep the footer quiet; the site should feel like a one-page academic CV. */
+.page__footer {
+  display: none;
+}
 
-@media (max-width: 700px) {
+/* Research/CV pages retain the same restrained typography. */
+.page__content ul {
+  padding-left: 1.35rem;
+}
 
-  .research-lightbox {
-    padding: 1.25rem;
+.page__content strong {
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  html {
+    font-size: 15px;
   }
 
-  .research-lightbox img {
-    max-width: 94vw;
-    max-height: 78vh;
+  .masthead__inner-wrap,
+  #main {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
-  .research-lightbox-close {
-    top: 0.75rem;
-    right: 1rem;
+  .greedy-nav .site-title {
+    font-size: 1.45rem;
   }
 
+  .home-intro {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .home-photo-wrap {
+    grid-row: 1;
+    justify-content: flex-start;
+  }
+
+  .home-photo {
+    width: 145px;
+    height: 145px;
+  }
+
+  .news-row {
+    grid-template-columns: 1fr;
+    row-gap: 0.05rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .news-date {
+    font-weight: 700;
+  }
 }
