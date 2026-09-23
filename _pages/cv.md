@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 <object
-  data="/files/Isaac_Garee_Resume_2026.pdf"
+  data="/files/IsaacGareeCV.pdf"
   type="application/pdf"
   width="100%"
   height="1100px">
